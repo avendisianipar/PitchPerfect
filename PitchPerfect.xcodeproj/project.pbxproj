@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40115EF2628259D009D2E16 /* RecordingPage.png in Resources */ = {isa = PBXBuildFile; fileRef = F40115ED2628259D009D2E16 /* RecordingPage.png */; };
+		F40115F02628259D009D2E16 /* PlaySoundPage.png in Resources */ = {isa = PBXBuildFile; fileRef = F40115EE2628259D009D2E16 /* PlaySoundPage.png */; };
 		F4233C652625F5C30073826B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4233C642625F5C30073826B /* AppDelegate.swift */; };
 		F4233C6C2625F5C30073826B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4233C6A2625F5C30073826B /* Main.storyboard */; };
 		F4233C6E2625F5C40073826B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4233C6D2625F5C40073826B /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F40115ED2628259D009D2E16 /* RecordingPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RecordingPage.png; sourceTree = "<group>"; };
+		F40115EE2628259D009D2E16 /* PlaySoundPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlaySoundPage.png; sourceTree = "<group>"; };
 		F4233C612625F5C30073826B /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4233C642625F5C30073826B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4233C6B2625F5C30073826B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F40115EC26282591009D2E16 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				F40115EE2628259D009D2E16 /* PlaySoundPage.png */,
+				F40115ED2628259D009D2E16 /* RecordingPage.png */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
 		F4233C582625F5C30073826B = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,7 @@
 		F4233C632625F5C30073826B /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
+				F40115EC26282591009D2E16 /* Asset */,
 				F4233C642625F5C30073826B /* AppDelegate.swift */,
 				F4233C6A2625F5C30073826B /* Main.storyboard */,
 				F4233C782625FF230073826B /* RecordSoundsViewController.swift */,
@@ -130,6 +144,8 @@
 			files = (
 				F4233C712625F5C40073826B /* LaunchScreen.storyboard in Resources */,
 				F4233C6E2625F5C40073826B /* Assets.xcassets in Resources */,
+				F40115F02628259D009D2E16 /* PlaySoundPage.png in Resources */,
+				F40115EF2628259D009D2E16 /* RecordingPage.png in Resources */,
 				F4233C6C2625F5C30073826B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
